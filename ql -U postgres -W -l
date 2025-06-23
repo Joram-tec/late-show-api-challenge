@@ -1,0 +1,11 @@
+                                   Table "public.guests"
+   Column   |       Type        | Collation | Nullable |              Default               
+------------+-------------------+-----------+----------+------------------------------------
+ id         | integer           |           | not null | nextval('guests_id_seq'::regclass)
+ name       | character varying |           | not null | 
+ occupation | character varying |           |          | 
+Indexes:
+    "guests_pkey" PRIMARY KEY, btree (id)
+Referenced by:
+    TABLE ""Appearances"" CONSTRAINT "Appearances_guest_id_fkey" FOREIGN KEY (guest_id) REFERENCES guests(id)
+
