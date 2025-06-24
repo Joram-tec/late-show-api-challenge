@@ -1,15 +1,18 @@
+## Late Show API
+- A Flask RESTful API for managing late-night talk show data, including users, guests, episodes, and their appearances. This project includes secure authentication with JWT, proper authorization, and full CRUD functionality.
+
 ## Features
-User registration and login with JWT authentication
+- User registration and login with JWT authentication
 
-View, create, and delete episodes
+- View, create, and delete episodes
 
-Manage guest appearances on episodes
+- Manage guest appearances on episodes
 
-View guest details and their appearances
+- View guest details and their appearances
 
-Token-based access protection on endpoints
+- Token-based access protection on endpoints
 
-PostgreSQL database with Flask SQLAlchemy ORM
+- PostgreSQL database with Flask SQLAlchemy ORM
 
 ## Author
 Joram Wayane Muya 
@@ -61,6 +64,6 @@ Marshmallow for serialization
 
 Postman for API testing
 
-10. License
+9. License
 This project is licensed under the MIT License.
 
